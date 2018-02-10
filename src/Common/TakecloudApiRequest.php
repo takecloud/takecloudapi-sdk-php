@@ -12,7 +12,7 @@ class TakecloudApiRequest
     /**
      * api请求的服务器
      */
-    const API_HOST = 'stevendev.takecloud.cn';
+    const API_HOST = 'weapp.takecloud.cn';
 
     /**
      * 校验公共参数
@@ -66,7 +66,7 @@ class TakecloudApiRequest
         $paramArray = self::checkPublicParams($paramArray, $appId);
         $plainText = TakecloudApiSign::makeSignPlainText($requestPath,$paramArray);
         $paramArray['Signature'] = TakecloudApiSign::sign($plainText,$appSecret);
-        $url = 'http://' . self::API_HOST . '/' . $requestPath . '?' . http_build_query($paramArray);
+        $url = 'https://' . self::API_HOST . '/' . $requestPath . '?' . http_build_query($paramArray);
         return $url;
     }
 

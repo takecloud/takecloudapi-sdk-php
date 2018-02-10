@@ -4,9 +4,9 @@ takecloudapi-sdk-php是为了让PHP开发者能够在自己的代码里更快捷
 
 #### 资源
 
-* [公共参数](http://wiki.qcloud.com/wiki/%E5%85%AC%E5%85%B1%E5%8F%82%E6%95%B0)
-* [API列表](http://wiki.qcloud.com/wiki/API)
-* [错误码](http://wiki.qcloud.com/wiki/%E9%94%99%E8%AF%AF%E7%A0%81)
+* [公共参数](http://wiki.takecloud.cn)
+* [API列表](http://wiki.takecloud.cn)
+* [错误码](http://wiki.takecloud.cn)
 
 #### 入门
 

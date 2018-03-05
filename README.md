@@ -4,9 +4,9 @@ takecloudapi-sdk-php是为了让PHP开发者能够在自己的代码里更快捷
 
 #### 资源
 
-* [公共参数](http://http://open.doc.takecloud.cn/diao-yong-fang-fa/gong-gong-can-shu.html)
-* [API列表](http://http://open.doc.takecloud.cn/apigai-lan.html)
-* [返回结果](http://http://open.doc.takecloud.cn/diao-yong-fang-fa/fan-hui-jie-guo.html)
+* [公共参数](http://open.doc.takecloud.cn/diao-yong-fang-fa/gong-gong-can-shu.html)
+* [API列表](http://open.doc.takecloud.cn/apigai-lan.html)
+* [返回结果](http://open.doc.takecloud.cn/diao-yong-fang-fa/fan-hui-jie-guo.html)
 
 #### 入门
 

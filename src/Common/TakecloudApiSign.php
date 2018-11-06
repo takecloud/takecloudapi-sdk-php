@@ -53,7 +53,7 @@ class TakecloudApiSign
             {
                 $paramStr .= '?';
             } else {
-                $paramStr .= '&';
+                $paramStr .= '&amp;';
             }
             $paramStr .= $key . '=' . $value;
             ++$i;

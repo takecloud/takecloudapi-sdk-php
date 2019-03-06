@@ -29,9 +29,9 @@ class TakecloudApi extends TakecloudApiBase
      * @param $params  array 请求参数
      * @return mixed
      */
-    public function send($path, $params = [])
+    public function send($path, $params = [], $method = 'get')
     {
         require_once TAKECLOUDAPI_ROOT_PATH . '/Common/TakecloudApiRequest.php';
-        return TakecloudApiRequest::send($path, $params, $this->_appId, $this->_appSecret);
+        return TakecloudApiRequest::send($path, $params, $this->_appId, $this->_appSecret,$method);
     }
 }

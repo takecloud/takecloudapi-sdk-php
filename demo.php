@@ -11,10 +11,21 @@ header('Content-type: application/json');
 require_once './src/TakecloudApi.php';
 
 $config = [
-    'AppId' => 'tc_5a7be935ca123',  // 您的appId
-    'AppSecret' => '5b0dbec2b6346ba7053dee52c9485b8f'  // 您的appSecret
+    'AppId' => 'tc_5c7f30c34a034',  // 您的appId
+    'AppSecret' => '25f389028cb0135aae68319cfbef0826'  // 您的appSecret
 ];
 
 $app = new TakecloudApi($config);
-$ret = $app->send('admin/app/getAppList');
+//$ret = $app->send('admin/goods/goodsList',[
+//    'pageIndex' => 1,
+//    'pageSize' => 5,
+//    'status' => '待上架#已上架#已下架',
+//    'promote' => '秒杀#拼团#砍价#无促销'
+//]);
+$ret = $app->generateUrl('admin/goods/goodsList',[
+    'pageIndex' => 1,
+    'pageSize' => 5,
+    'status' => '待上架#已上架#已下架',
+    'promote' => '秒杀#拼团#砍价#无促销'
+]);
 echo $ret;
